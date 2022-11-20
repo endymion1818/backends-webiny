@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"@editorjs/code": "^2.7.0",
 		"@editorjs/delimiter": "^1.2.0",
 		"@editorjs/list": "^1.6.0",
 		"@editorjs/quote": "^2.4.0",

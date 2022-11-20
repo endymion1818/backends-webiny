@@ -3215,6 +3215,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@editorjs/code@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@editorjs/code@npm:2.7.0"
+  checksum: 094b62afea5aee329bb70caa50cf6ef31c4e9bb542ad3b8b353681c3d6648aa8fb2c9784c059aa3d7c9da5cb836d006379728152653e13b47595c93389adad6c
+  languageName: node
+  linkType: hard
+
 "@editorjs/delimiter@npm:^1.2.0":
   version: 1.2.0
   resolution: "@editorjs/delimiter@npm:1.2.0"
@@ -8850,6 +8857,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "admin@workspace:apps/admin"
   dependencies:
+    "@editorjs/code": ^2.7.0
     "@editorjs/delimiter": ^1.2.0
     "@editorjs/list": ^1.6.0
     "@editorjs/quote": ^2.4.0
