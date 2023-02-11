@@ -27,3 +27,5 @@ cypress.json
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+.editorconfig
+.vscode
