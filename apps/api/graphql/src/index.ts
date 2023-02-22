@@ -34,6 +34,7 @@ import { createStorageOperations as createApwSaStorageOperations } from "@webiny
 
 // Imports plugins created via scaffolding utilities.
 import scaffoldsPlugins from "./plugins/scaffolds";
+import { createACO } from "@webiny/api-aco";
 
 const debug = process.env.DEBUG === "true";
 
@@ -88,6 +89,7 @@ export const handler = createHandler({
         createApwPageBuilderContext({
             storageOperations: createApwSaStorageOperations({ documentClient })
         }),
+        createACO(),
         scaffoldsPlugins()
     ],
     http: { debug }

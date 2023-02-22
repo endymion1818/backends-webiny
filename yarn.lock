@@ -9717,6 +9717,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api-graphql@workspace:apps/api/graphql"
   dependencies:
+    "@webiny/api-aco": 5.34.0
     "@webiny/api-admin-users-cognito": 5.34.0
     "@webiny/api-admin-users-cognito-so-ddb": 5.34.0
     "@webiny/api-apw": 5.34.0
