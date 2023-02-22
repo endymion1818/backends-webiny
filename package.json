@@ -4,17 +4,17 @@
 	"private": true,
 	"packageManager": "yarn@3.2.3",
 	"dependencies": {
-		"@webiny/aws-layers": "5.32.0",
-		"@webiny/cli": "5.32.0",
-		"@webiny/cli-plugin-deploy-pulumi": "5.32.0",
-		"@webiny/cli-plugin-scaffold": "5.32.0",
-		"@webiny/cli-plugin-scaffold-admin-app-module": "5.32.0",
-		"@webiny/cli-plugin-scaffold-ci": "5.32.0",
-		"@webiny/cli-plugin-scaffold-graphql-service": "5.32.0",
-		"@webiny/cli-plugin-workspaces": "5.32.0",
-		"@webiny/cwp-template-aws": "5.32.0",
-		"@webiny/project-utils": "5.32.0",
-		"@webiny/serverless-cms-aws": "5.32.0"
+		"@webiny/aws-layers": "5.34.0",
+		"@webiny/cli": "5.34.0",
+		"@webiny/cli-plugin-deploy-pulumi": "5.34.0",
+		"@webiny/cli-plugin-scaffold": "5.34.0",
+		"@webiny/cli-plugin-scaffold-admin-app-module": "5.34.0",
+		"@webiny/cli-plugin-scaffold-ci": "5.34.0",
+		"@webiny/cli-plugin-scaffold-graphql-service": "5.34.0",
+		"@webiny/cli-plugin-workspaces": "5.34.0",
+		"@webiny/cwp-template-aws": "5.34.0",
+		"@webiny/project-utils": "5.34.0",
+		"@webiny/serverless-cms-aws": "5.34.0"
 	},
 	"keywords": [
 		"aws+dynamodb"
