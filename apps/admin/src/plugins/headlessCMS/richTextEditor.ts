@@ -12,6 +12,8 @@ import Underline from "@editorjs/underline";
 // @ts-ignore
 import Code from "@editorjs/code"
 
+import Poetry from "./poetry/poetry"
+
 import Image from "@webiny/app-admin/components/RichTextEditor/tools/image";
 import TextColor from "@webiny/app-admin/components/RichTextEditor/tools/textColor";
 import Header from "@webiny/app-admin/components/RichTextEditor/tools/header";
@@ -51,6 +53,9 @@ export default {
             },
             code: {
                 class: Code
+            },
+            poetry: {
+                class: Poetry
             },
             color: {
                 class: TextColor,
